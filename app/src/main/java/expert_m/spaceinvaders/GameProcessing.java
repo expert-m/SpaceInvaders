@@ -201,7 +201,7 @@ public class GameProcessing extends View {
         DisplayMetrics dm = getResources().getDisplayMetrics();
         widthPixels = dm.widthPixels;
         heightPixels = dm.heightPixels;
-        scale = (dm.densityDpi / 160.0) * (1080.0 / widthPixels);
+        scale = dm.densityDpi / 160.0;
     }
 
     public boolean getRunning() {
