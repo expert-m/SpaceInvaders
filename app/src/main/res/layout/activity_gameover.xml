@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#231F20"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#43978D"
+        android:textSize="37dp"
+        android:text="GAME OVER"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPlayGO"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="#43978D"
+            android:textColor="#fff"
+            android:layout_marginRight="10dp"
+            android:text="PLAY"/>
+
+        <Button
+            android:id="@+id/btnMenuGO"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="#43978D"
+            android:textColor="#fff"
+            android:text="MENU"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:text="SCORE  "/>
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:text="0"/>
+
+    </LinearLayout>
+
+</LinearLayout>
